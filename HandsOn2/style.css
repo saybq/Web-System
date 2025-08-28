@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #acb3b6;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 80px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+.menu-container{
+    background-color: #f1e4e4;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+}
+hr{
+    border: 0;
+    height: 5px; 
+    background-color: #333;
+    margin-bottom: 10px;
+}
+.menu-appetizers{
+    padding: 10px 0 10px 0;
+}
+.menu-appetizers > h2{
+    padding: 5px;
+    font-size: 40px;
+}
+.menu-appetizers> ul{
+    list-style: none;
+    text-align: center;
+}
+.menu-MainCourses{
+    padding: 0 0 10px 0;
+}
+.menu-MainCourses > h2{
+    padding: 5px;
+    font-size: 40px;
+}
+.menu-MainCourses> ul{
+    list-style: none;
+    text-align: center;
+}
+.menu-Desserts{
+    padding: 0 0 20px 0;
+}
+.menu-Desserts > h2{
+    padding: 5px;
+    font-size: 40px;
+    transition: 0.5 ease;
+}
+.menu-Desserts> ul{
+    list-style: none;
+    text-align: center;
+}
+
+.menu-appetizers > ul li:hover,
+.menu-MainCourses > ul li:hover,
+.menu-Desserts > ul li:hover {
+    font-weight: bold;
+    background-color: #e7a296;  
+    color: white;  
+    transition: background-color 0.2s ease;  
+}
+
